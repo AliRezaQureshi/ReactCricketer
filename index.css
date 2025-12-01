@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F6F9EA;
+}
+
+.parent{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px black;
+  overflow: hidden;
+}
+
+.top{
+  height: 40%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D36F83;
+  
+}
+
+.top img{
+  height: 80%;
+  
+  background-color: skyblue;
+  border-radius: 10%;
+  box-shadow: 1px 1px 10px black;
+}
+
+.center{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: whitesmoke;
+  gap: 10px;
+  
+}
+
+.center p{
+  font-size: 32px;
+}
+
+.center h2{
+  font-family: 'Audiowide', cursive;
+}
+
+.bottom{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.data{
+  height: 80%;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.test{
+  
+  border: 1px solid black;
+  width: 33%;
+  text-align: center;
+  border-radius: 10px;
+}
+.runs{
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+}
+.stats{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.fifty{
+  border-right: 1px solid gray;
+  padding: 3px;
+  text-align: center;
+}
+
+.cent{
+  border-right: 1px solid gray;
+  padding: 3px;
+  text-align: center;
+}
+.wickets{
+  padding: 3px;
+  text-align: center;
+}
+
+.odi{
+  
+  border: 1px solid black;
+  width: 33%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.t20{
+  
+  border: 1px solid black;
+  width: 33%;
+  text-align: center;
+  border-radius: 10px;
+}
